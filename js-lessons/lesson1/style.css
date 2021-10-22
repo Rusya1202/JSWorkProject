@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.block {
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    background: rgb(122, 116, 116);
+    color: aliceblue;
+}
