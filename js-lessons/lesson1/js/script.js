@@ -1,37 +1,29 @@
-"use strict"; 
+"use strict";
 
-//To string 
+let num = 50;
 
-//1)
-console.log(typeof(String(null)));
+    console.log(num);
+while (num <= 100) {
+    num++;
+}
 
-//2)
-console.log(typeof(null + ''));
+let numTwo = 25;
 
+do {
 
+    console.log(numTwo);
+} while (numTwo <= 100);
+    
+    numTwo++;
 
-//To number
+let numThree = 30;
 
-//1)
-console.log(typeof(Number('5')));
+for (let i = 1; i < 50; i++) {
+    if (i === 30) {
 
-//2)
-console.log(typeof(+'57'));
+        continue;
+    }
 
-//3) 
-console.log(typeof(parseInt("15px", 10)));
-
-
-
-//To boolean
- 
-//1)
-//0, '', null, undefined, NaN === false (отсутствие значений)
-//(Есть значение) === true
-
-//2) 
-console.log(typeof(Boolean('4')));
-
-//3) 
-console.log(typeof(!!"444"));
-
+    console.log(i);
+    numThree++;
+}
